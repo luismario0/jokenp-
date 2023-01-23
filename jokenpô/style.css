@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vw;
+    background: #000080;
+    justify-content: center;
+   
+}
+img{
+    margin: 1em;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+p{
+    color: white;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+#computador{
+    display: flex;
+   justify-content: center;
+   
+}
+#vs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bolder;
+   
+}
+#jogador{
+    display: flex;
+   justify-content: center;
+}

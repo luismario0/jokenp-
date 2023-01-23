@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <title>JOKENPÔ</title>
+</head>
+<body>
+    <main>
+        <div class="cont">
+            <h1>jogador</h1>
+            <p id="cont1">0</p>
+            <h1>computador</h1>
+            <p id="cont2">0</p>
+        </div>
+        <div id="computador">
+            <div><img src="./img/vs.png" alt=""></div>
+            <div><img src="./img/vs.png" alt=""></div>
+            <div><img src="./img/vs.png" alt=""></div> 
+        </div>
+    
+        <div id="vs">
+            <div><img src="./img/vs.png" alt="" id="img1"></div>
+            <h1>VS</h1>
+            <div><img src="./img/vs.png" alt="" id="img2"></div>
+        </div> 
+    
+        <div id="jogador" class="selected">
+            <div id="papel"><img src="./img/papel.png" alt="" onclick="insert(0)"></div>
+            <div id="pedra"><img src="./img/pedra.png" alt="" onclick="insert(1)" ></div>
+            <div id="tesoura"><img src="./img/tesoura.png" alt="" onclick="insert(2)"></div>
+        </div> 
+        <script src="script.js"></script>
+    </main>
+    
+</body>
+</html>
